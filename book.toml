@@ -1,0 +1,6 @@
+[book]
+authors = ["bauer"]
+language = "en"
+multilingual = false
+src = "src"
+title = "rust learn"
