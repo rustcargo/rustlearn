@@ -4,7 +4,7 @@
 
 - 如有需要请看[小小的入门](./GETTING_STARTED.zh.md)
 
-["Hello, World!"](http://en.wikipedia.org/wiki/%22Hello,_world!%22_program)是在新的语言或环境中开始编程的第一个程序的传统.
+["Hello, World!"]是在新的语言或环境中开始编程的第一个程序的传统.
 
 目标很简单:
 
@@ -16,4 +16,4 @@
 
 ## 资源
 
-这是一个介绍<http://en.wikipedia.org/wiki/%22Hello,_world!%22_program>使用者，使用Exercism进行练习.
+这是一个介绍使用者，使用Exercism进行练习.
