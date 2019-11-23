@@ -1,3 +1,5 @@
+pub mod play_iterator;
+
 #[cfg(test)]
 mod tests {
     #[test]
@@ -25,4 +27,14 @@ mod tests {
         assert_eq!(xyz.get(20..25),None);// 索引超出范围
     }
 
+    #[test]
+    fn play_micro() {
+        eprintln!(env!("PATH"));
+        eprintln!(concat!("a", "b", 1, true));
+        let n = 1;
+        dbg!(n);
+        eprintln!("{}", file!());
+        eprintln!("{}", line!());
+        eprintln!("{}", column!());
+    }
 }
