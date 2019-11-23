@@ -1,1 +1,3 @@
-book
+./exercises/target
+**/*.rs.bk
+**/target
