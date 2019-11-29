@@ -1,5 +1,5 @@
 [package]
-name = "play_thread"
+name = "play-thread"
 version = "0.1.0"
 authors = ["rustcargo <rustcargo@hotmail.com>"]
 edition = "2018"

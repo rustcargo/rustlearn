@@ -1,5 +1,5 @@
 [package]
-name = "exercises"
+name = "play-macro"
 version = "0.1.0"
 authors = ["rustcargo <rustcargo@hotmail.com>"]
 edition = "2018"
@@ -7,7 +7,3 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-play-str = { path = "play-str" }
-play-thread = { path = "play-thread" }
-play-async = { path = "play-async" }
-play-macro = { path = "play-macro" }
