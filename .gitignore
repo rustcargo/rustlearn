@@ -1,3 +1,5 @@
 ./exercises/target
+./exercises/Cargo.lock
 **/*.rs.bk
 **/target
+**/*.lock

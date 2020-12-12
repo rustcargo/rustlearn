@@ -1,4 +1,7 @@
+pub mod from_and_into;
+pub mod patter_tips;
 pub mod play_iterator;
+pub mod str_and_string;
 
 #[cfg(test)]
 mod tests {
@@ -9,7 +12,7 @@ mod tests {
         assert_eq!(format!("The number is {}", 1), "The number is 1");
         assert_eq!(format!("{:?}", (3, 4)), "(3, 4)");
         // 参数取值
-        assert_eq!(format!("{value}", value=4), "4");
+        assert_eq!(format!("{value}", value = 4), "4");
         assert_eq!(format!("{} {}", 1, 2), "1 2");
         // 占位符
         assert_eq!(format!("{:04}", 42), "0042");
@@ -22,19 +25,8 @@ mod tests {
     #[test]
     fn play_sub_str() {
         let mut xyz = "Hello World".to_string();
-        let xyz = xyz.as_mut_str();// 无法直接将字面字符串变成&mut str，只有通过String转化
-        assert_eq!(xyz.get(6..), Some("World"));// 索引不在字符边界上
-        assert_eq!(xyz.get(20..25),None);// 索引超出范围
-    }
-
-    #[test]
-    fn play_micro() {
-        eprintln!(env!("PATH"));
-        eprintln!(concat!("a", "b", 1, true));
-        let n = 1;
-        dbg!(n);
-        eprintln!("{}", file!());
-        eprintln!("{}", line!());
-        eprintln!("{}", column!());
+        let xyz = xyz.as_mut_str(); // 无法直接将字面字符串变成&mut str，只有通过String转化
+        assert_eq!(xyz.get(6..), Some("World")); // 索引不在字符边界上
+        assert_eq!(xyz.get(20..25), None); // 索引超出范围
     }
 }

@@ -1,0 +1,8 @@
+{
+    "editor.formatOnSave": true,
+    "rust-analyzer.procMacro.enable": true,
+    "rust.all_features": true,
+    "editor.fontSize": 18,
+    "editor.defaultFormatter": "rust-lang.rust",
+    "editor.formatOnPaste": true
+}
